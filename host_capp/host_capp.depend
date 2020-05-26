@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blcommands.c
+	"main.h"
+
+1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\main.h
+	<Windows.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	"WindowsSerialPort.h"
+	"LinuxSerialPort.h"
+	"OSxSerialPort.h"
+
+1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\windowsserialport.h
+
+1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\linuxserialport.h
+
+1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\osxserialport.h
+
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blreplyprocessing.c
+	"main.h"
+
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\linuxserialport.c
+	"main.h"
+	"LinuxSerialPort.h"
+
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\main.c
+	"main.h"
+
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\osxserialport.c
+	"main.h"
+	"OSxSerialPort.h"
+
+1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\utilities.c
+	"main.h"
+
+1590531850 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\windowsserialport.c
+	"main.h"
+
+1590531744 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\fileops.c
+	"main.h"
+

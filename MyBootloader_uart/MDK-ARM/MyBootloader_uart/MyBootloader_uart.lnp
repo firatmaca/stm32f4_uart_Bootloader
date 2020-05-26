@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"mybootloader_uart\startup_stm32f407xx.o"
+"mybootloader_uart\main.o"
+"mybootloader_uart\stm32f4xx_it.o"
+"mybootloader_uart\stm32f4xx_hal_msp.o"
+"mybootloader_uart\stm32f4xx_hal_crc.o"
+"mybootloader_uart\stm32f4xx_hal_rcc.o"
+"mybootloader_uart\stm32f4xx_hal_rcc_ex.o"
+"mybootloader_uart\stm32f4xx_hal_flash.o"
+"mybootloader_uart\stm32f4xx_hal_flash_ex.o"
+"mybootloader_uart\stm32f4xx_hal_flash_ramfunc.o"
+"mybootloader_uart\stm32f4xx_hal_gpio.o"
+"mybootloader_uart\stm32f4xx_hal_dma_ex.o"
+"mybootloader_uart\stm32f4xx_hal_dma.o"
+"mybootloader_uart\stm32f4xx_hal_pwr.o"
+"mybootloader_uart\stm32f4xx_hal_pwr_ex.o"
+"mybootloader_uart\stm32f4xx_hal_cortex.o"
+"mybootloader_uart\stm32f4xx_hal.o"
+"mybootloader_uart\stm32f4xx_hal_exti.o"
+"mybootloader_uart\stm32f4xx_hal_tim.o"
+"mybootloader_uart\stm32f4xx_hal_tim_ex.o"
+"mybootloader_uart\stm32f4xx_hal_uart.o"
+"mybootloader_uart\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "MyBootloader_uart\MyBootloader_uart.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MyBootloader_uart.map" -o MyBootloader_uart\MyBootloader_uart.axf
