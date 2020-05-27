@@ -17,21 +17,9 @@ int main()
         printf("\n |                   Menu                   |");
         printf("\n +==========================================+\n");
 #endif
-        printf("\n\n   Which BL command do you want to send ??\n");
-        printf("\n   BL_GET_VER                     --> 1");
-        printf("\n   BL_GET_HLP                     --> 2");
-        printf("\n   BL_GET_CID                     --> 3");
-        printf("\n   BL_GET_RDP_STATUS              --> 4");
-        printf("\n   BL_GO_TO_ADDR                  --> 5");
-        printf("\n   BL_FLASH_MASS_ERASE            --> 6");
-        printf("\n   BL_FLASH_ERASE                 --> 7");
-        printf("\n   BL_MEM_WRITE                   --> 8");
-        printf("\n   BL_EN_R_W_PROTECT              --> 9");
-        printf("\n   BL_MEM_READ                    --> 10");
-        printf("\n   BL_READ_SECTOR_P_STATUS        --> 11");
-        printf("\n   BL_OTP_READ                    --> 12");
-        printf("\n   BL_DIS_R_W_PROTECT             --> 13");
-        printf("\n   BL_MY_NEW_COMMAND              --> 14");
+
+        printf("\n   BL_FLASH_ERASE                 --> 1");
+        printf("\n   BL_MEM_WRITE                   --> 2");
         printf("\n   MENU_EXIT                      --> 0");
 
         printf("\n\n   Type the command code here :");

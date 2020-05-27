@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blcommands.c
+1590617223 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blcommands.c
 	"main.h"
 
 1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\main.h
@@ -17,14 +17,14 @@
 
 1590339250 c:\users\firat\desktop\programlama\codeblocksc++\host_capp\osxserialport.h
 
-1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blreplyprocessing.c
+1590616128 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\blreplyprocessing.c
 	"main.h"
 
 1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\linuxserialport.c
 	"main.h"
 	"LinuxSerialPort.h"
 
-1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\main.c
+1590617223 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\main.c
 	"main.h"
 
 1590339250 source:c:\users\firat\desktop\programlama\codeblocksc++\host_capp\osxserialport.c
