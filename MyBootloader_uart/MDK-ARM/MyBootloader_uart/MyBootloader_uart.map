@@ -23,65 +23,65 @@ Section Cross References
     main.o(i.SystemClock_Config) refers to memseta.o(.text) for __aeabi_memclr4
     main.o(i.SystemClock_Config) refers to stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig) for HAL_RCC_OscConfig
     main.o(i.SystemClock_Config) refers to stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig) for HAL_RCC_ClockConfig
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.printmsg) for printmsg
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.bootloader_verify_crc) for bootloader_verify_crc
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.bootloader_send_nack) for bootloader_send_nack
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.bootloader_send_ack) for bootloader_send_ack
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.execute_flash_erase) for execute_flash_erase
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(i.bootloader_uart_write_data) for bootloader_uart_write_data
-    main.o(i.bootloader_handle_flash_erase_cmd) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.printmsg) for printmsg
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.bootloader_verify_crc) for bootloader_verify_crc
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.bootloader_send_nack) for bootloader_send_nack
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.bootloader_send_ack) for bootloader_send_ack
-    main.o(i.bootloader_handle_mem_write_cmd) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.execute_mem_write) for execute_mem_write
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(i.bootloader_uart_write_data) for bootloader_uart_write_data
-    main.o(i.bootloader_handle_mem_write_cmd) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_jump_to_user_app) refers to main.o(i.printmsg) for printmsg
-    main.o(i.bootloader_send_ack) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
-    main.o(i.bootloader_send_ack) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_send_nack) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
-    main.o(i.bootloader_send_nack) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_uart_read_data) refers to memseta.o(.text) for __aeabi_memclr4
-    main.o(i.bootloader_uart_read_data) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Receive) for HAL_UART_Receive
-    main.o(i.bootloader_uart_read_data) refers to main.o(i.printmsg) for printmsg
-    main.o(i.bootloader_uart_read_data) refers to main.o(i.bootloader_handle_flash_erase_cmd) for bootloader_handle_flash_erase_cmd
-    main.o(i.bootloader_uart_read_data) refers to main.o(i.bootloader_handle_mem_write_cmd) for bootloader_handle_mem_write_cmd
-    main.o(i.bootloader_uart_read_data) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_uart_write_data) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
-    main.o(i.bootloader_uart_write_data) refers to main.o(.bss) for .bss
-    main.o(i.bootloader_verify_crc) refers to stm32f4xx_hal_crc.o(i.HAL_CRC_Accumulate) for HAL_CRC_Accumulate
-    main.o(i.bootloader_verify_crc) refers to main.o(.data) for .data
-    main.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Unlock) for HAL_FLASH_Unlock
-    main.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash_ex.o(i.HAL_FLASHEx_Erase) for HAL_FLASHEx_Erase
-    main.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Lock) for HAL_FLASH_Lock
-    main.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Unlock) for HAL_FLASH_Unlock
-    main.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Program) for HAL_FLASH_Program
-    main.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Lock) for HAL_FLASH_Lock
     main.o(i.main) refers to stm32f4xx_hal.o(i.HAL_Init) for HAL_Init
     main.o(i.main) refers to main.o(i.SystemClock_Config) for SystemClock_Config
     main.o(i.main) refers to main.o(i.MX_GPIO_Init) for MX_GPIO_Init
     main.o(i.main) refers to stm32f4xx_hal_crc.o(i.HAL_CRC_Init) for HAL_CRC_Init
     main.o(i.main) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Init) for HAL_UART_Init
-    main.o(i.main) refers to strlen.o(.text) for strlen
-    main.o(i.main) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
-    main.o(i.main) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin) for HAL_GPIO_ReadPin
-    main.o(i.main) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
-    main.o(i.main) refers to main.o(i.printmsg) for printmsg
-    main.o(i.main) refers to main.o(i.bootloader_jump_to_user_app) for bootloader_jump_to_user_app
-    main.o(i.main) refers to main.o(i.bootloader_uart_read_data) for bootloader_uart_read_data
+    main.o(i.main) refers to flash.o(i.uart_bootloader) for uart_bootloader
     main.o(i.main) refers to main.o(.data) for .data
     main.o(i.main) refers to main.o(.bss) for .bss
-    main.o(i.printmsg) refers to printfa.o(i.__0vsprintf) for vsprintf
-    main.o(i.printmsg) refers to strlen.o(.text) for strlen
-    main.o(i.printmsg) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
-    main.o(i.printmsg) refers to main.o(.bss) for .bss
     stm32f4xx_it.o(i.SysTick_Handler) refers to stm32f4xx_hal.o(i.HAL_IncTick) for HAL_IncTick
     stm32f4xx_hal_msp.o(i.HAL_UART_MspDeInit) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_DeInit) for HAL_GPIO_DeInit
     stm32f4xx_hal_msp.o(i.HAL_UART_MspInit) refers to memseta.o(.text) for __aeabi_memclr4
     stm32f4xx_hal_msp.o(i.HAL_UART_MspInit) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init) for HAL_GPIO_Init
+    flash.o(i.bootloader_uart_write_data) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
+    flash.o(i.bootloader_uart_write_data) refers to main.o(.bss) for huart3
+    flash.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Unlock) for HAL_FLASH_Unlock
+    flash.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash_ex.o(i.HAL_FLASHEx_Erase) for HAL_FLASHEx_Erase
+    flash.o(i.execute_flash_erase) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Lock) for HAL_FLASH_Lock
+    flash.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Unlock) for HAL_FLASH_Unlock
+    flash.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Program) for HAL_FLASH_Program
+    flash.o(i.execute_mem_write) refers to stm32f4xx_hal_flash.o(i.HAL_FLASH_Lock) for HAL_FLASH_Lock
+    flash.o(i.flash_bootloader_erase) refers to print.o(i.printmsg) for printmsg
+    flash.o(i.flash_bootloader_erase) refers to crc.o(i.bootloader_verify_crc) for bootloader_verify_crc
+    flash.o(i.flash_bootloader_erase) refers to flash.o(i.flash_bootloader_send_nack) for flash_bootloader_send_nack
+    flash.o(i.flash_bootloader_erase) refers to flash.o(i.flash_bootloader_send_ack) for flash_bootloader_send_ack
+    flash.o(i.flash_bootloader_erase) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
+    flash.o(i.flash_bootloader_erase) refers to flash.o(i.execute_flash_erase) for execute_flash_erase
+    flash.o(i.flash_bootloader_erase) refers to flash.o(i.bootloader_uart_write_data) for bootloader_uart_write_data
+    flash.o(i.flash_bootloader_erase) refers to flash.o(.bss) for .bss
+    flash.o(i.flash_bootloader_jump_to_user_app) refers to print.o(i.printmsg) for printmsg
+    flash.o(i.flash_bootloader_send_ack) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
+    flash.o(i.flash_bootloader_send_ack) refers to main.o(.bss) for huart3
+    flash.o(i.flash_bootloader_send_nack) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
+    flash.o(i.flash_bootloader_send_nack) refers to main.o(.bss) for huart3
+    flash.o(i.flash_bootloader_uart_read_data) refers to memseta.o(.text) for __aeabi_memclr
+    flash.o(i.flash_bootloader_uart_read_data) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Receive) for HAL_UART_Receive
+    flash.o(i.flash_bootloader_uart_read_data) refers to print.o(i.printmsg) for printmsg
+    flash.o(i.flash_bootloader_uart_read_data) refers to flash.o(i.flash_bootloader_erase) for flash_bootloader_erase
+    flash.o(i.flash_bootloader_uart_read_data) refers to flash.o(i.flash_bootloader_write) for flash_bootloader_write
+    flash.o(i.flash_bootloader_uart_read_data) refers to flash.o(.bss) for .bss
+    flash.o(i.flash_bootloader_uart_read_data) refers to main.o(.bss) for huart3
+    flash.o(i.flash_bootloader_write) refers to print.o(i.printmsg) for printmsg
+    flash.o(i.flash_bootloader_write) refers to crc.o(i.bootloader_verify_crc) for bootloader_verify_crc
+    flash.o(i.flash_bootloader_write) refers to flash.o(i.flash_bootloader_send_nack) for flash_bootloader_send_nack
+    flash.o(i.flash_bootloader_write) refers to flash.o(i.flash_bootloader_send_ack) for flash_bootloader_send_ack
+    flash.o(i.flash_bootloader_write) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
+    flash.o(i.flash_bootloader_write) refers to flash.o(i.execute_mem_write) for execute_mem_write
+    flash.o(i.flash_bootloader_write) refers to flash.o(i.bootloader_uart_write_data) for bootloader_uart_write_data
+    flash.o(i.flash_bootloader_write) refers to flash.o(.bss) for .bss
+    flash.o(i.uart_bootloader) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin) for HAL_GPIO_ReadPin
+    flash.o(i.uart_bootloader) refers to stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
+    flash.o(i.uart_bootloader) refers to print.o(i.printmsg) for printmsg
+    flash.o(i.uart_bootloader) refers to flash.o(i.flash_bootloader_jump_to_user_app) for flash_bootloader_jump_to_user_app
+    flash.o(i.uart_bootloader) refers to flash.o(i.flash_bootloader_uart_read_data) for flash_bootloader_uart_read_data
+    print.o(i.printmsg) refers to printfa.o(i.__0vsprintf) for vsprintf
+    print.o(i.printmsg) refers to strlen.o(.text) for strlen
+    print.o(i.printmsg) refers to stm32f4xx_hal_uart.o(i.HAL_UART_Transmit) for HAL_UART_Transmit
+    print.o(i.printmsg) refers to main.o(.bss) for huart2
+    crc.o(i.bootloader_verify_crc) refers to stm32f4xx_hal_crc.o(i.HAL_CRC_Accumulate) for HAL_CRC_Accumulate
+    crc.o(i.bootloader_verify_crc) refers to main.o(.data) for hcrc
     stm32f4xx_hal_crc.o(i.HAL_CRC_DeInit) refers to stm32f4xx_hal_msp.o(i.HAL_CRC_MspDeInit) for HAL_CRC_MspDeInit
     stm32f4xx_hal_crc.o(i.HAL_CRC_Init) refers to stm32f4xx_hal_msp.o(i.HAL_CRC_MspInit) for HAL_CRC_MspInit
     stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig) refers to stm32f4xx_hal.o(i.HAL_GetTick) for HAL_GetTick
@@ -324,7 +324,6 @@ Removing Unused input sections from the image.
     Removing main.o(.revsh_text), (4 bytes).
     Removing main.o(.rrx_text), (6 bytes).
     Removing main.o(i.Error_Handler), (2 bytes).
-    Removing main.o(.data), (25 bytes).
     Removing stm32f4xx_it.o(.rev16_text), (4 bytes).
     Removing stm32f4xx_it.o(.revsh_text), (4 bytes).
     Removing stm32f4xx_it.o(.rrx_text), (6 bytes).
@@ -333,6 +332,15 @@ Removing Unused input sections from the image.
     Removing stm32f4xx_hal_msp.o(.rrx_text), (6 bytes).
     Removing stm32f4xx_hal_msp.o(i.HAL_CRC_MspDeInit), (28 bytes).
     Removing stm32f4xx_hal_msp.o(i.HAL_UART_MspDeInit), (72 bytes).
+    Removing flash.o(.rev16_text), (4 bytes).
+    Removing flash.o(.revsh_text), (4 bytes).
+    Removing flash.o(.rrx_text), (6 bytes).
+    Removing print.o(.rev16_text), (4 bytes).
+    Removing print.o(.revsh_text), (4 bytes).
+    Removing print.o(.rrx_text), (6 bytes).
+    Removing crc.o(.rev16_text), (4 bytes).
+    Removing crc.o(.revsh_text), (4 bytes).
+    Removing crc.o(.rrx_text), (6 bytes).
     Removing stm32f4xx_hal_crc.o(.rev16_text), (4 bytes).
     Removing stm32f4xx_hal_crc.o(.revsh_text), (4 bytes).
     Removing stm32f4xx_hal_crc.o(.rrx_text), (6 bytes).
@@ -564,7 +572,7 @@ Removing Unused input sections from the image.
     Removing system_stm32f4xx.o(.rrx_text), (6 bytes).
     Removing system_stm32f4xx.o(i.SystemCoreClockUpdate), (124 bytes).
 
-244 unused section(s) (total 13159 bytes) removed from the image.
+252 unused section(s) (total 13176 bytes) removed from the image.
 
 ==============================================================================
 
@@ -595,23 +603,23 @@ Image Symbol Table
     ../Src/stm32f4xx_hal_msp.c               0x00000000   Number         0  stm32f4xx_hal_msp.o ABSOLUTE
     ../Src/stm32f4xx_it.c                    0x00000000   Number         0  stm32f4xx_it.o ABSOLUTE
     ../Src/system_stm32f4xx.c                0x00000000   Number         0  system_stm32f4xx.o ABSOLUTE
-    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
     ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
-    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
     ../clib/microlib/stdio/fputc.c           0x00000000   Number         0  fputc.o ABSOLUTE
@@ -651,6 +659,12 @@ Image Symbol Table
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
     init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    lib\\crc.c                               0x00000000   Number         0  crc.o ABSOLUTE
+    lib\\flash.c                             0x00000000   Number         0  flash.o ABSOLUTE
+    lib\\print.c                             0x00000000   Number         0  print.o ABSOLUTE
+    lib\crc.c                                0x00000000   Number         0  crc.o ABSOLUTE
+    lib\flash.c                              0x00000000   Number         0  flash.o ABSOLUTE
+    lib\print.c                              0x00000000   Number         0  print.o ABSOLUTE
     startup_stm32f407xx.s                    0x00000000   Number         0  startup_stm32f407xx.o ABSOLUTE
     RESET                                    0x08000000   Section      392  startup_stm32f407xx.o(RESET)
     .ARM.Collect$$$$00000000                 0x08000188   Section        0  entry.o(.ARM.Collect$$$$00000000)
@@ -671,8 +685,8 @@ Image Symbol Table
     .text                                    0x08000254   Section        0  uidiv.o(.text)
     .text                                    0x08000280   Section        0  llshl.o(.text)
     .text                                    0x0800029e   Section        0  llushr.o(.text)
-    .text                                    0x080002be   Section        0  iusefp.o(.text)
     .text                                    0x080002be   Section        0  dadd.o(.text)
+    .text                                    0x080002be   Section        0  iusefp.o(.text)
     .text                                    0x0800040c   Section        0  dmul.o(.text)
     .text                                    0x080004f0   Section        0  ddiv.o(.text)
     .text                                    0x080005ce   Section        0  dfixul.o(.text)
@@ -755,24 +769,26 @@ Image Symbol Table
     _printf_pre_padding                      0x08002189   Thumb Code    46  printfa.o(i._printf_pre_padding)
     i._sputc                                 0x080021b6   Section        0  printfa.o(i._sputc)
     _sputc                                   0x080021b7   Thumb Code    10  printfa.o(i._sputc)
-    i.bootloader_handle_flash_erase_cmd      0x080021c0   Section        0  main.o(i.bootloader_handle_flash_erase_cmd)
-    i.bootloader_handle_mem_write_cmd        0x080022d8   Section        0  main.o(i.bootloader_handle_mem_write_cmd)
-    i.bootloader_jump_to_user_app            0x08002474   Section        0  main.o(i.bootloader_jump_to_user_app)
-    i.bootloader_send_ack                    0x080024f8   Section        0  main.o(i.bootloader_send_ack)
-    i.bootloader_send_nack                   0x08002518   Section        0  main.o(i.bootloader_send_nack)
-    i.bootloader_uart_read_data              0x08002534   Section        0  main.o(i.bootloader_uart_read_data)
-    i.bootloader_uart_write_data             0x080025b0   Section        0  main.o(i.bootloader_uart_write_data)
-    i.bootloader_verify_crc                  0x080025c4   Section        0  main.o(i.bootloader_verify_crc)
-    i.execute_flash_erase                    0x08002604   Section        0  main.o(i.execute_flash_erase)
-    i.execute_mem_write                      0x08002650   Section        0  main.o(i.execute_mem_write)
+    i.bootloader_uart_write_data             0x080021c0   Section        0  flash.o(i.bootloader_uart_write_data)
+    i.bootloader_verify_crc                  0x080021d4   Section        0  crc.o(i.bootloader_verify_crc)
+    i.execute_flash_erase                    0x08002214   Section        0  flash.o(i.execute_flash_erase)
+    i.execute_mem_write                      0x08002260   Section        0  flash.o(i.execute_mem_write)
+    i.flash_bootloader_erase                 0x08002290   Section        0  flash.o(i.flash_bootloader_erase)
+    i.flash_bootloader_jump_to_user_app      0x080023a8   Section        0  flash.o(i.flash_bootloader_jump_to_user_app)
+    i.flash_bootloader_send_ack              0x0800242c   Section        0  flash.o(i.flash_bootloader_send_ack)
+    i.flash_bootloader_send_nack             0x0800244c   Section        0  flash.o(i.flash_bootloader_send_nack)
+    i.flash_bootloader_uart_read_data        0x08002468   Section        0  flash.o(i.flash_bootloader_uart_read_data)
+    i.flash_bootloader_write                 0x080024e4   Section        0  flash.o(i.flash_bootloader_write)
     i.main                                   0x08002680   Section        0  main.o(i.main)
-    i.printmsg                               0x0800279c   Section        0  main.o(i.printmsg)
-    .constdata                               0x080027cc   Section       16  system_stm32f4xx.o(.constdata)
-    .constdata                               0x080027dc   Section        8  system_stm32f4xx.o(.constdata)
+    i.printmsg                               0x080026f0   Section        0  print.o(i.printmsg)
+    i.uart_bootloader                        0x08002720   Section        0  flash.o(i.uart_bootloader)
+    .constdata                               0x080027b4   Section       16  system_stm32f4xx.o(.constdata)
+    .constdata                               0x080027c4   Section        8  system_stm32f4xx.o(.constdata)
     .data                                    0x20000000   Section        8  main.o(.data)
     .data                                    0x20000008   Section       12  stm32f4xx_hal.o(.data)
     .data                                    0x20000014   Section        4  system_stm32f4xx.o(.data)
-    .bss                                     0x20000018   Section      328  main.o(.bss)
+    .bss                                     0x20000018   Section      128  main.o(.bss)
+    .bss                                     0x20000098   Section      200  flash.o(.bss)
     .bss                                     0x20000160   Section       32  stm32f4xx_hal_flash.o(.bss)
     STACK                                    0x20000180   Section     1024  startup_stm32f407xx.o(STACK)
 
@@ -959,22 +975,23 @@ Image Symbol Table
     __scatterload_copy                       0x080018e5   Thumb Code    14  handlers.o(i.__scatterload_copy)
     __scatterload_null                       0x080018f3   Thumb Code     2  handlers.o(i.__scatterload_null)
     __scatterload_zeroinit                   0x080018f5   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    bootloader_handle_flash_erase_cmd        0x080021c1   Thumb Code   130  main.o(i.bootloader_handle_flash_erase_cmd)
-    bootloader_handle_mem_write_cmd          0x080022d9   Thumb Code   162  main.o(i.bootloader_handle_mem_write_cmd)
-    bootloader_jump_to_user_app              0x08002475   Thumb Code    42  main.o(i.bootloader_jump_to_user_app)
-    bootloader_send_ack                      0x080024f9   Thumb Code    26  main.o(i.bootloader_send_ack)
-    bootloader_send_nack                     0x08002519   Thumb Code    24  main.o(i.bootloader_send_nack)
-    bootloader_uart_read_data                0x08002535   Thumb Code    76  main.o(i.bootloader_uart_read_data)
-    bootloader_uart_write_data               0x080025b1   Thumb Code    14  main.o(i.bootloader_uart_write_data)
-    bootloader_verify_crc                    0x080025c5   Thumb Code    58  main.o(i.bootloader_verify_crc)
-    execute_flash_erase                      0x08002605   Thumb Code    76  main.o(i.execute_flash_erase)
-    execute_mem_write                        0x08002651   Thumb Code    46  main.o(i.execute_mem_write)
-    main                                     0x08002681   Thumb Code   168  main.o(i.main)
-    printmsg                                 0x0800279d   Thumb Code    42  main.o(i.printmsg)
-    AHBPrescTable                            0x080027cc   Data          16  system_stm32f4xx.o(.constdata)
-    APBPrescTable                            0x080027dc   Data           8  system_stm32f4xx.o(.constdata)
-    Region$$Table$$Base                      0x080027e4   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08002804   Number         0  anon$$obj.o(Region$$Table)
+    bootloader_uart_write_data               0x080021c1   Thumb Code    14  flash.o(i.bootloader_uart_write_data)
+    bootloader_verify_crc                    0x080021d5   Thumb Code    58  crc.o(i.bootloader_verify_crc)
+    execute_flash_erase                      0x08002215   Thumb Code    76  flash.o(i.execute_flash_erase)
+    execute_mem_write                        0x08002261   Thumb Code    46  flash.o(i.execute_mem_write)
+    flash_bootloader_erase                   0x08002291   Thumb Code   130  flash.o(i.flash_bootloader_erase)
+    flash_bootloader_jump_to_user_app        0x080023a9   Thumb Code    42  flash.o(i.flash_bootloader_jump_to_user_app)
+    flash_bootloader_send_ack                0x0800242d   Thumb Code    26  flash.o(i.flash_bootloader_send_ack)
+    flash_bootloader_send_nack               0x0800244d   Thumb Code    24  flash.o(i.flash_bootloader_send_nack)
+    flash_bootloader_uart_read_data          0x08002469   Thumb Code    72  flash.o(i.flash_bootloader_uart_read_data)
+    flash_bootloader_write                   0x080024e5   Thumb Code   162  flash.o(i.flash_bootloader_write)
+    main                                     0x08002681   Thumb Code    92  main.o(i.main)
+    printmsg                                 0x080026f1   Thumb Code    42  print.o(i.printmsg)
+    uart_bootloader                          0x08002721   Thumb Code    58  flash.o(i.uart_bootloader)
+    AHBPrescTable                            0x080027b4   Data          16  system_stm32f4xx.o(.constdata)
+    APBPrescTable                            0x080027c4   Data           8  system_stm32f4xx.o(.constdata)
+    Region$$Table$$Base                      0x080027cc   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080027ec   Number         0  anon$$obj.o(Region$$Table)
     hcrc                                     0x20000000   Data           8  main.o(.data)
     uwTickFreq                               0x20000008   Data           1  stm32f4xx_hal.o(.data)
     uwTickPrio                               0x2000000c   Data           4  stm32f4xx_hal.o(.data)
@@ -982,7 +999,7 @@ Image Symbol Table
     SystemCoreClock                          0x20000014   Data           4  system_stm32f4xx.o(.data)
     huart2                                   0x20000018   Data          64  main.o(.bss)
     huart3                                   0x20000058   Data          64  main.o(.bss)
-    bl_rx_buffer                             0x20000098   Data         200  main.o(.bss)
+    bl_flash_rx_buffer                       0x20000098   Data         200  flash.o(.bss)
     pFlash                                   0x20000160   Data          32  stm32f4xx_hal_flash.o(.bss)
     __initial_sp                             0x20000580   Data           0  startup_stm32f407xx.o(STACK)
 
@@ -994,131 +1011,133 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000281c, Max: 0x00100000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00002804, Max: 0x00100000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00002804, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000027ec, Max: 0x00100000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000188   Data   RO            3    RESET               startup_stm32f407xx.o
-    0x08000188   0x08000188   0x00000000   Code   RO         1936  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000188   0x08000188   0x00000004   Code   RO         1973    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x0800018c   0x0800018c   0x00000004   Code   RO         1976    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         1978    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         1980    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000190   0x08000190   0x00000008   Code   RO         1981    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         1983    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         1985    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000198   0x08000198   0x00000004   Code   RO         1974    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000188   0x08000188   0x00000000   Code   RO         2024  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000188   0x08000188   0x00000004   Code   RO         2061    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0800018c   0x0800018c   0x00000004   Code   RO         2064    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2066    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         2068    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000190   0x08000190   0x00000008   Code   RO         2069    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2071    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         2073    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000198   0x08000198   0x00000004   Code   RO         2062    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0800019c   0x0800019c   0x00000024   Code   RO            4    .text               startup_stm32f407xx.o
-    0x080001c0   0x080001c0   0x00000062   Code   RO         1939    .text               mc_w.l(uldiv.o)
-    0x08000222   0x08000222   0x00000024   Code   RO         1941    .text               mc_w.l(memseta.o)
-    0x08000246   0x08000246   0x0000000e   Code   RO         1943    .text               mc_w.l(strlen.o)
-    0x08000254   0x08000254   0x0000002c   Code   RO         1990    .text               mc_w.l(uidiv.o)
-    0x08000280   0x08000280   0x0000001e   Code   RO         1992    .text               mc_w.l(llshl.o)
-    0x0800029e   0x0800029e   0x00000020   Code   RO         1994    .text               mc_w.l(llushr.o)
-    0x080002be   0x080002be   0x00000000   Code   RO         1996    .text               mc_w.l(iusefp.o)
-    0x080002be   0x080002be   0x0000014e   Code   RO         1997    .text               mf_w.l(dadd.o)
-    0x0800040c   0x0800040c   0x000000e4   Code   RO         1999    .text               mf_w.l(dmul.o)
-    0x080004f0   0x080004f0   0x000000de   Code   RO         2001    .text               mf_w.l(ddiv.o)
-    0x080005ce   0x080005ce   0x00000030   Code   RO         2003    .text               mf_w.l(dfixul.o)
+    0x080001c0   0x080001c0   0x00000062   Code   RO         2027    .text               mc_w.l(uldiv.o)
+    0x08000222   0x08000222   0x00000024   Code   RO         2029    .text               mc_w.l(memseta.o)
+    0x08000246   0x08000246   0x0000000e   Code   RO         2031    .text               mc_w.l(strlen.o)
+    0x08000254   0x08000254   0x0000002c   Code   RO         2078    .text               mc_w.l(uidiv.o)
+    0x08000280   0x08000280   0x0000001e   Code   RO         2080    .text               mc_w.l(llshl.o)
+    0x0800029e   0x0800029e   0x00000020   Code   RO         2082    .text               mc_w.l(llushr.o)
+    0x080002be   0x080002be   0x00000000   Code   RO         2084    .text               mc_w.l(iusefp.o)
+    0x080002be   0x080002be   0x0000014e   Code   RO         2085    .text               mf_w.l(dadd.o)
+    0x0800040c   0x0800040c   0x000000e4   Code   RO         2087    .text               mf_w.l(dmul.o)
+    0x080004f0   0x080004f0   0x000000de   Code   RO         2089    .text               mf_w.l(ddiv.o)
+    0x080005ce   0x080005ce   0x00000030   Code   RO         2091    .text               mf_w.l(dfixul.o)
     0x080005fe   0x080005fe   0x00000002   PAD
-    0x08000600   0x08000600   0x00000030   Code   RO         2005    .text               mf_w.l(cdrcmple.o)
-    0x08000630   0x08000630   0x00000024   Code   RO         2007    .text               mc_w.l(init.o)
-    0x08000654   0x08000654   0x00000024   Code   RO         2010    .text               mc_w.l(llsshr.o)
-    0x08000678   0x08000678   0x000000ba   Code   RO         2013    .text               mf_w.l(depilogue.o)
-    0x08000732   0x08000732   0x00000002   Code   RO          221    i.BusFault_Handler  stm32f4xx_it.o
-    0x08000734   0x08000734   0x00000002   Code   RO          222    i.DebugMon_Handler  stm32f4xx_it.o
+    0x08000600   0x08000600   0x00000030   Code   RO         2093    .text               mf_w.l(cdrcmple.o)
+    0x08000630   0x08000630   0x00000024   Code   RO         2095    .text               mc_w.l(init.o)
+    0x08000654   0x08000654   0x00000024   Code   RO         2098    .text               mc_w.l(llsshr.o)
+    0x08000678   0x08000678   0x000000ba   Code   RO         2101    .text               mf_w.l(depilogue.o)
+    0x08000732   0x08000732   0x00000002   Code   RO          167    i.BusFault_Handler  stm32f4xx_it.o
+    0x08000734   0x08000734   0x00000002   Code   RO          168    i.DebugMon_Handler  stm32f4xx_it.o
     0x08000736   0x08000736   0x00000002   PAD
-    0x08000738   0x08000738   0x00000050   Code   RO          681    i.FLASH_Erase_Sector  stm32f4xx_hal_flash_ex.o
-    0x08000788   0x08000788   0x00000054   Code   RO          682    i.FLASH_FlushCaches  stm32f4xx_hal_flash_ex.o
-    0x080007dc   0x080007dc   0x00000028   Code   RO          683    i.FLASH_MassErase   stm32f4xx_hal_flash_ex.o
-    0x08000804   0x08000804   0x00000020   Code   RO          563    i.FLASH_Program_Byte  stm32f4xx_hal_flash.o
-    0x08000824   0x08000824   0x0000002c   Code   RO          564    i.FLASH_Program_DoubleWord  stm32f4xx_hal_flash.o
-    0x08000850   0x08000850   0x00000024   Code   RO          565    i.FLASH_Program_HalfWord  stm32f4xx_hal_flash.o
-    0x08000874   0x08000874   0x00000024   Code   RO          566    i.FLASH_Program_Word  stm32f4xx_hal_flash.o
-    0x08000898   0x08000898   0x00000068   Code   RO          567    i.FLASH_SetErrorCode  stm32f4xx_hal_flash.o
-    0x08000900   0x08000900   0x00000050   Code   RO          568    i.FLASH_WaitForLastOperation  stm32f4xx_hal_flash.o
-    0x08000950   0x08000950   0x00000026   Code   RO          347    i.HAL_CRC_Accumulate  stm32f4xx_hal_crc.o
-    0x08000976   0x08000976   0x00000022   Code   RO          351    i.HAL_CRC_Init      stm32f4xx_hal_crc.o
-    0x08000998   0x08000998   0x00000028   Code   RO          300    i.HAL_CRC_MspInit   stm32f4xx_hal_msp.o
-    0x080009c0   0x080009c0   0x00000098   Code   RO          684    i.HAL_FLASHEx_Erase  stm32f4xx_hal_flash_ex.o
-    0x08000a58   0x08000a58   0x00000014   Code   RO          572    i.HAL_FLASH_Lock    stm32f4xx_hal_flash.o
-    0x08000a6c   0x08000a6c   0x0000007c   Code   RO          577    i.HAL_FLASH_Program  stm32f4xx_hal_flash.o
-    0x08000ae8   0x08000ae8   0x0000002c   Code   RO          579    i.HAL_FLASH_Unlock  stm32f4xx_hal_flash.o
-    0x08000b14   0x08000b14   0x000001b8   Code   RO          762    i.HAL_GPIO_Init     stm32f4xx_hal_gpio.o
-    0x08000ccc   0x08000ccc   0x0000000a   Code   RO          764    i.HAL_GPIO_ReadPin  stm32f4xx_hal_gpio.o
-    0x08000cd6   0x08000cd6   0x0000000a   Code   RO          766    i.HAL_GPIO_WritePin  stm32f4xx_hal_gpio.o
-    0x08000ce0   0x08000ce0   0x0000000c   Code   RO         1294    i.HAL_GetTick       stm32f4xx_hal.o
-    0x08000cec   0x08000cec   0x00000010   Code   RO         1300    i.HAL_IncTick       stm32f4xx_hal.o
-    0x08000cfc   0x08000cfc   0x00000034   Code   RO         1301    i.HAL_Init          stm32f4xx_hal.o
-    0x08000d30   0x08000d30   0x00000040   Code   RO         1302    i.HAL_InitTick      stm32f4xx_hal.o
-    0x08000d70   0x08000d70   0x00000030   Code   RO          301    i.HAL_MspInit       stm32f4xx_hal_msp.o
-    0x08000da0   0x08000da0   0x00000040   Code   RO         1157    i.HAL_NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x08000de0   0x08000de0   0x00000024   Code   RO         1158    i.HAL_NVIC_SetPriorityGrouping  stm32f4xx_hal_cortex.o
-    0x08000e04   0x08000e04   0x00000134   Code   RO          408    i.HAL_RCC_ClockConfig  stm32f4xx_hal_rcc.o
-    0x08000f38   0x08000f38   0x00000020   Code   RO          415    i.HAL_RCC_GetPCLK1Freq  stm32f4xx_hal_rcc.o
-    0x08000f58   0x08000f58   0x00000020   Code   RO          416    i.HAL_RCC_GetPCLK2Freq  stm32f4xx_hal_rcc.o
-    0x08000f78   0x08000f78   0x00000064   Code   RO          417    i.HAL_RCC_GetSysClockFreq  stm32f4xx_hal_rcc.o
-    0x08000fdc   0x08000fdc   0x0000035c   Code   RO          420    i.HAL_RCC_OscConfig  stm32f4xx_hal_rcc.o
-    0x08001338   0x08001338   0x00000028   Code   RO         1162    i.HAL_SYSTICK_Config  stm32f4xx_hal_cortex.o
-    0x08001360   0x08001360   0x00000062   Code   RO         1600    i.HAL_UART_Init     stm32f4xx_hal_uart.o
+    0x08000738   0x08000738   0x00000050   Code   RO          769    i.FLASH_Erase_Sector  stm32f4xx_hal_flash_ex.o
+    0x08000788   0x08000788   0x00000054   Code   RO          770    i.FLASH_FlushCaches  stm32f4xx_hal_flash_ex.o
+    0x080007dc   0x080007dc   0x00000028   Code   RO          771    i.FLASH_MassErase   stm32f4xx_hal_flash_ex.o
+    0x08000804   0x08000804   0x00000020   Code   RO          651    i.FLASH_Program_Byte  stm32f4xx_hal_flash.o
+    0x08000824   0x08000824   0x0000002c   Code   RO          652    i.FLASH_Program_DoubleWord  stm32f4xx_hal_flash.o
+    0x08000850   0x08000850   0x00000024   Code   RO          653    i.FLASH_Program_HalfWord  stm32f4xx_hal_flash.o
+    0x08000874   0x08000874   0x00000024   Code   RO          654    i.FLASH_Program_Word  stm32f4xx_hal_flash.o
+    0x08000898   0x08000898   0x00000068   Code   RO          655    i.FLASH_SetErrorCode  stm32f4xx_hal_flash.o
+    0x08000900   0x08000900   0x00000050   Code   RO          656    i.FLASH_WaitForLastOperation  stm32f4xx_hal_flash.o
+    0x08000950   0x08000950   0x00000026   Code   RO          435    i.HAL_CRC_Accumulate  stm32f4xx_hal_crc.o
+    0x08000976   0x08000976   0x00000022   Code   RO          439    i.HAL_CRC_Init      stm32f4xx_hal_crc.o
+    0x08000998   0x08000998   0x00000028   Code   RO          243    i.HAL_CRC_MspInit   stm32f4xx_hal_msp.o
+    0x080009c0   0x080009c0   0x00000098   Code   RO          772    i.HAL_FLASHEx_Erase  stm32f4xx_hal_flash_ex.o
+    0x08000a58   0x08000a58   0x00000014   Code   RO          660    i.HAL_FLASH_Lock    stm32f4xx_hal_flash.o
+    0x08000a6c   0x08000a6c   0x0000007c   Code   RO          665    i.HAL_FLASH_Program  stm32f4xx_hal_flash.o
+    0x08000ae8   0x08000ae8   0x0000002c   Code   RO          667    i.HAL_FLASH_Unlock  stm32f4xx_hal_flash.o
+    0x08000b14   0x08000b14   0x000001b8   Code   RO          850    i.HAL_GPIO_Init     stm32f4xx_hal_gpio.o
+    0x08000ccc   0x08000ccc   0x0000000a   Code   RO          852    i.HAL_GPIO_ReadPin  stm32f4xx_hal_gpio.o
+    0x08000cd6   0x08000cd6   0x0000000a   Code   RO          854    i.HAL_GPIO_WritePin  stm32f4xx_hal_gpio.o
+    0x08000ce0   0x08000ce0   0x0000000c   Code   RO         1382    i.HAL_GetTick       stm32f4xx_hal.o
+    0x08000cec   0x08000cec   0x00000010   Code   RO         1388    i.HAL_IncTick       stm32f4xx_hal.o
+    0x08000cfc   0x08000cfc   0x00000034   Code   RO         1389    i.HAL_Init          stm32f4xx_hal.o
+    0x08000d30   0x08000d30   0x00000040   Code   RO         1390    i.HAL_InitTick      stm32f4xx_hal.o
+    0x08000d70   0x08000d70   0x00000030   Code   RO          244    i.HAL_MspInit       stm32f4xx_hal_msp.o
+    0x08000da0   0x08000da0   0x00000040   Code   RO         1245    i.HAL_NVIC_SetPriority  stm32f4xx_hal_cortex.o
+    0x08000de0   0x08000de0   0x00000024   Code   RO         1246    i.HAL_NVIC_SetPriorityGrouping  stm32f4xx_hal_cortex.o
+    0x08000e04   0x08000e04   0x00000134   Code   RO          496    i.HAL_RCC_ClockConfig  stm32f4xx_hal_rcc.o
+    0x08000f38   0x08000f38   0x00000020   Code   RO          503    i.HAL_RCC_GetPCLK1Freq  stm32f4xx_hal_rcc.o
+    0x08000f58   0x08000f58   0x00000020   Code   RO          504    i.HAL_RCC_GetPCLK2Freq  stm32f4xx_hal_rcc.o
+    0x08000f78   0x08000f78   0x00000064   Code   RO          505    i.HAL_RCC_GetSysClockFreq  stm32f4xx_hal_rcc.o
+    0x08000fdc   0x08000fdc   0x0000035c   Code   RO          508    i.HAL_RCC_OscConfig  stm32f4xx_hal_rcc.o
+    0x08001338   0x08001338   0x00000028   Code   RO         1250    i.HAL_SYSTICK_Config  stm32f4xx_hal_cortex.o
+    0x08001360   0x08001360   0x00000062   Code   RO         1688    i.HAL_UART_Init     stm32f4xx_hal_uart.o
     0x080013c2   0x080013c2   0x00000002   PAD
-    0x080013c4   0x080013c4   0x000000a0   Code   RO          303    i.HAL_UART_MspInit  stm32f4xx_hal_msp.o
-    0x08001464   0x08001464   0x000000be   Code   RO         1603    i.HAL_UART_Receive  stm32f4xx_hal_uart.o
-    0x08001522   0x08001522   0x000000ba   Code   RO         1608    i.HAL_UART_Transmit  stm32f4xx_hal_uart.o
-    0x080015dc   0x080015dc   0x00000002   Code   RO          223    i.HardFault_Handler  stm32f4xx_it.o
+    0x080013c4   0x080013c4   0x000000a0   Code   RO          246    i.HAL_UART_MspInit  stm32f4xx_hal_msp.o
+    0x08001464   0x08001464   0x000000be   Code   RO         1691    i.HAL_UART_Receive  stm32f4xx_hal_uart.o
+    0x08001522   0x08001522   0x000000ba   Code   RO         1696    i.HAL_UART_Transmit  stm32f4xx_hal_uart.o
+    0x080015dc   0x080015dc   0x00000002   Code   RO          169    i.HardFault_Handler  stm32f4xx_it.o
     0x080015de   0x080015de   0x00000002   PAD
     0x080015e0   0x080015e0   0x00000098   Code   RO           14    i.MX_GPIO_Init      main.o
-    0x08001678   0x08001678   0x00000002   Code   RO          224    i.MemManage_Handler  stm32f4xx_it.o
-    0x0800167a   0x0800167a   0x00000002   Code   RO          225    i.NMI_Handler       stm32f4xx_it.o
-    0x0800167c   0x0800167c   0x00000002   Code   RO          226    i.PendSV_Handler    stm32f4xx_it.o
-    0x0800167e   0x0800167e   0x00000002   Code   RO          227    i.SVC_Handler       stm32f4xx_it.o
-    0x08001680   0x08001680   0x00000004   Code   RO          228    i.SysTick_Handler   stm32f4xx_it.o
+    0x08001678   0x08001678   0x00000002   Code   RO          170    i.MemManage_Handler  stm32f4xx_it.o
+    0x0800167a   0x0800167a   0x00000002   Code   RO          171    i.NMI_Handler       stm32f4xx_it.o
+    0x0800167c   0x0800167c   0x00000002   Code   RO          172    i.PendSV_Handler    stm32f4xx_it.o
+    0x0800167e   0x0800167e   0x00000002   Code   RO          173    i.SVC_Handler       stm32f4xx_it.o
+    0x08001680   0x08001680   0x00000004   Code   RO          174    i.SysTick_Handler   stm32f4xx_it.o
     0x08001684   0x08001684   0x00000070   Code   RO           15    i.SystemClock_Config  main.o
-    0x080016f4   0x080016f4   0x0000001c   Code   RO         1902    i.SystemInit        system_stm32f4xx.o
-    0x08001710   0x08001710   0x00000128   Code   RO         1626    i.UART_SetConfig    stm32f4xx_hal_uart.o
-    0x08001838   0x08001838   0x00000064   Code   RO         1628    i.UART_WaitOnFlagUntilTimeout  stm32f4xx_hal_uart.o
-    0x0800189c   0x0800189c   0x00000002   Code   RO          229    i.UsageFault_Handler  stm32f4xx_it.o
+    0x080016f4   0x080016f4   0x0000001c   Code   RO         1990    i.SystemInit        system_stm32f4xx.o
+    0x08001710   0x08001710   0x00000128   Code   RO         1714    i.UART_SetConfig    stm32f4xx_hal_uart.o
+    0x08001838   0x08001838   0x00000064   Code   RO         1716    i.UART_WaitOnFlagUntilTimeout  stm32f4xx_hal_uart.o
+    0x0800189c   0x0800189c   0x00000002   Code   RO          175    i.UsageFault_Handler  stm32f4xx_it.o
     0x0800189e   0x0800189e   0x00000002   PAD
-    0x080018a0   0x080018a0   0x00000024   Code   RO         1952    i.__0vsprintf       mc_w.l(printfa.o)
-    0x080018c4   0x080018c4   0x00000020   Code   RO         1164    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x080018e4   0x080018e4   0x0000000e   Code   RO         2017    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x080018f2   0x080018f2   0x00000002   Code   RO         2018    i.__scatterload_null  mc_w.l(handlers.o)
-    0x080018f4   0x080018f4   0x0000000e   Code   RO         2019    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x080018a0   0x080018a0   0x00000024   Code   RO         2040    i.__0vsprintf       mc_w.l(printfa.o)
+    0x080018c4   0x080018c4   0x00000020   Code   RO         1252    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
+    0x080018e4   0x080018e4   0x0000000e   Code   RO         2105    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x080018f2   0x080018f2   0x00000002   Code   RO         2106    i.__scatterload_null  mc_w.l(handlers.o)
+    0x080018f4   0x080018f4   0x0000000e   Code   RO         2107    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08001902   0x08001902   0x00000002   PAD
-    0x08001904   0x08001904   0x00000184   Code   RO         1953    i._fp_digits        mc_w.l(printfa.o)
-    0x08001a88   0x08001a88   0x000006dc   Code   RO         1954    i._printf_core      mc_w.l(printfa.o)
-    0x08002164   0x08002164   0x00000024   Code   RO         1955    i._printf_post_padding  mc_w.l(printfa.o)
-    0x08002188   0x08002188   0x0000002e   Code   RO         1956    i._printf_pre_padding  mc_w.l(printfa.o)
-    0x080021b6   0x080021b6   0x0000000a   Code   RO         1958    i._sputc            mc_w.l(printfa.o)
-    0x080021c0   0x080021c0   0x00000118   Code   RO           16    i.bootloader_handle_flash_erase_cmd  main.o
-    0x080022d8   0x080022d8   0x0000019c   Code   RO           17    i.bootloader_handle_mem_write_cmd  main.o
-    0x08002474   0x08002474   0x00000084   Code   RO           18    i.bootloader_jump_to_user_app  main.o
-    0x080024f8   0x080024f8   0x00000020   Code   RO           19    i.bootloader_send_ack  main.o
-    0x08002518   0x08002518   0x0000001c   Code   RO           20    i.bootloader_send_nack  main.o
-    0x08002534   0x08002534   0x0000007c   Code   RO           21    i.bootloader_uart_read_data  main.o
-    0x080025b0   0x080025b0   0x00000014   Code   RO           22    i.bootloader_uart_write_data  main.o
-    0x080025c4   0x080025c4   0x00000040   Code   RO           23    i.bootloader_verify_crc  main.o
-    0x08002604   0x08002604   0x0000004c   Code   RO           24    i.execute_flash_erase  main.o
-    0x08002650   0x08002650   0x0000002e   Code   RO           25    i.execute_mem_write  main.o
-    0x0800267e   0x0800267e   0x00000002   PAD
-    0x08002680   0x08002680   0x0000011c   Code   RO           26    i.main              main.o
-    0x0800279c   0x0800279c   0x00000030   Code   RO           27    i.printmsg          main.o
-    0x080027cc   0x080027cc   0x00000010   Data   RO         1903    .constdata          system_stm32f4xx.o
-    0x080027dc   0x080027dc   0x00000008   Data   RO         1904    .constdata          system_stm32f4xx.o
-    0x080027e4   0x080027e4   0x00000020   Data   RO         2015    Region$$Table       anon$$obj.o
+    0x08001904   0x08001904   0x00000184   Code   RO         2041    i._fp_digits        mc_w.l(printfa.o)
+    0x08001a88   0x08001a88   0x000006dc   Code   RO         2042    i._printf_core      mc_w.l(printfa.o)
+    0x08002164   0x08002164   0x00000024   Code   RO         2043    i._printf_post_padding  mc_w.l(printfa.o)
+    0x08002188   0x08002188   0x0000002e   Code   RO         2044    i._printf_pre_padding  mc_w.l(printfa.o)
+    0x080021b6   0x080021b6   0x0000000a   Code   RO         2046    i._sputc            mc_w.l(printfa.o)
+    0x080021c0   0x080021c0   0x00000014   Code   RO          290    i.bootloader_uart_write_data  flash.o
+    0x080021d4   0x080021d4   0x00000040   Code   RO          411    i.bootloader_verify_crc  crc.o
+    0x08002214   0x08002214   0x0000004c   Code   RO          291    i.execute_flash_erase  flash.o
+    0x08002260   0x08002260   0x0000002e   Code   RO          292    i.execute_mem_write  flash.o
+    0x0800228e   0x0800228e   0x00000002   PAD
+    0x08002290   0x08002290   0x00000118   Code   RO          293    i.flash_bootloader_erase  flash.o
+    0x080023a8   0x080023a8   0x00000084   Code   RO          294    i.flash_bootloader_jump_to_user_app  flash.o
+    0x0800242c   0x0800242c   0x00000020   Code   RO          295    i.flash_bootloader_send_ack  flash.o
+    0x0800244c   0x0800244c   0x0000001c   Code   RO          296    i.flash_bootloader_send_nack  flash.o
+    0x08002468   0x08002468   0x0000007c   Code   RO          297    i.flash_bootloader_uart_read_data  flash.o
+    0x080024e4   0x080024e4   0x0000019c   Code   RO          298    i.flash_bootloader_write  flash.o
+    0x08002680   0x08002680   0x00000070   Code   RO           16    i.main              main.o
+    0x080026f0   0x080026f0   0x00000030   Code   RO          384    i.printmsg          print.o
+    0x08002720   0x08002720   0x00000094   Code   RO          299    i.uart_bootloader   flash.o
+    0x080027b4   0x080027b4   0x00000010   Data   RO         1991    .constdata          system_stm32f4xx.o
+    0x080027c4   0x080027c4   0x00000008   Data   RO         1992    .constdata          system_stm32f4xx.o
+    0x080027cc   0x080027cc   0x00000020   Data   RO         2103    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08002804, Size: 0x00000580, Max: 0x00020000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080027ec, Size: 0x00000580, Max: 0x00020000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08002804   0x00000008   Data   RW           30    .data               main.o
-    0x20000008   0x0800280c   0x0000000c   Data   RW         1308    .data               stm32f4xx_hal.o
-    0x20000014   0x08002818   0x00000004   Data   RW         1905    .data               system_stm32f4xx.o
-    0x20000018        -       0x00000148   Zero   RW           28    .bss                main.o
-    0x20000160        -       0x00000020   Zero   RW          580    .bss                stm32f4xx_hal_flash.o
+    0x20000000   0x080027ec   0x00000008   Data   RW           18    .data               main.o
+    0x20000008   0x080027f4   0x0000000c   Data   RW         1396    .data               stm32f4xx_hal.o
+    0x20000014   0x08002800   0x00000004   Data   RW         1993    .data               system_stm32f4xx.o
+    0x20000018        -       0x00000080   Zero   RW           17    .bss                main.o
+    0x20000098        -       0x000000c8   Zero   RW          300    .bss                flash.o
+    0x20000160        -       0x00000020   Zero   RW          668    .bss                stm32f4xx_hal_flash.o
     0x20000180        -       0x00000400   Zero   RW            1    STACK               startup_stm32f407xx.o
 
 
@@ -1129,7 +1148,10 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1810        704          0          8        328     680579   main.o
+        64          6          0          0          0       1144   crc.o
+      1298        648          0          0        200      12611   flash.o
+       376         42          0          8        128     666433   main.o
+        48          6          0          0          0       1155   print.o
         36          8        392          0       1024        860   startup_stm32f407xx.o
        144         24          0         12          0       8941   stm32f4xx_hal.o
        172         14          0          0          0      33386   stm32f4xx_hal_cortex.o
@@ -1144,7 +1166,7 @@ Image component sizes
         28          6         24          4          0       1203   system_stm32f4xx.o
 
     ----------------------------------------------------------------------
-      6078       1022        448         24       1384     758492   Object Totals
+      6054       1020        448         24       1384     759256   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         10          0          0          0          0          0   (incl. Padding)
 
@@ -1199,15 +1221,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      9796       1124        448         24       1384     754004   Grand Totals
-      9796       1124        448         24       1384     754004   ELF Image Totals
-      9796       1124        448         24          0          0   ROM Totals
+      9772       1122        448         24       1384     754668   Grand Totals
+      9772       1122        448         24       1384     754668   ELF Image Totals
+      9772       1122        448         24          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                10244 (  10.00kB)
+    Total RO  Size (Code + RO Data)                10220 (   9.98kB)
     Total RW  Size (RW Data + ZI Data)              1408 (   1.38kB)
-    Total ROM Size (Code + RO Data + RW Data)      10268 (  10.03kB)
+    Total ROM Size (Code + RO Data + RW Data)      10244 (  10.00kB)
 
 ==============================================================================
 

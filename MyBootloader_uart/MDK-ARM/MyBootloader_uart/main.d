@@ -30,5 +30,8 @@ mybootloader_uart\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flas
 mybootloader_uart\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 mybootloader_uart\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 mybootloader_uart\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-mybootloader_uart\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+mybootloader_uart\main.o: .\lib\flash.h
 mybootloader_uart\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mybootloader_uart\main.o: .\lib\crc.h
+mybootloader_uart\main.o: .\lib\print.h
+mybootloader_uart\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
